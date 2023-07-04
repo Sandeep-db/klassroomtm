@@ -1,0 +1,505 @@
+2023/05/02 13:13:29 [error] [exception.CException] CException: Failed to connect to redis: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /data/live/framework/caching/CRedisCache.php:100
+Stack trace:
+#0 /data/live/framework/caching/CRedisCache.php(126): CRedisCache->connect()
+#1 /data/live/framework/caching/CRedisCache.php(201): CRedisCache->executeCommand()
+#2 /data/live/framework/caching/CCache.php(104): CRedisCache->getValue()
+#3 /data/live/framework/web/CUrlManager.php(219): CCache->get()
+#4 /data/live/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#5 /data/live/framework/base/CModule.php(394): CUrlManager->init()
+#6 /data/live/framework/base/CApplication.php(531): CModule->getComponent()
+#7 /data/live/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#8 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /data/live/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2023/05/02 13:15:30 [error] [exception.CException] CException: Failed to connect to redis: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /data/live/framework/caching/CRedisCache.php:100
+Stack trace:
+#0 /data/live/framework/caching/CRedisCache.php(126): CRedisCache->connect()
+#1 /data/live/framework/caching/CRedisCache.php(201): CRedisCache->executeCommand()
+#2 /data/live/framework/caching/CCache.php(104): CRedisCache->getValue()
+#3 /data/live/framework/web/CUrlManager.php(219): CCache->get()
+#4 /data/live/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#5 /data/live/framework/base/CModule.php(394): CUrlManager->init()
+#6 /data/live/framework/base/CApplication.php(531): CModule->getComponent()
+#7 /data/live/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#8 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /data/live/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2023/05/02 13:15:31 [error] [exception.CException] CException: Failed to connect to redis: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /data/live/framework/caching/CRedisCache.php:100
+Stack trace:
+#0 /data/live/framework/caching/CRedisCache.php(126): CRedisCache->connect()
+#1 /data/live/framework/caching/CRedisCache.php(201): CRedisCache->executeCommand()
+#2 /data/live/framework/caching/CCache.php(104): CRedisCache->getValue()
+#3 /data/live/framework/web/CUrlManager.php(219): CCache->get()
+#4 /data/live/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#5 /data/live/framework/base/CModule.php(394): CUrlManager->init()
+#6 /data/live/framework/base/CApplication.php(531): CModule->getComponent()
+#7 /data/live/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#8 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /data/live/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2023/05/02 13:15:31 [error] [exception.CException] CException: Failed to connect to redis: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /data/live/framework/caching/CRedisCache.php:100
+Stack trace:
+#0 /data/live/framework/caching/CRedisCache.php(126): CRedisCache->connect()
+#1 /data/live/framework/caching/CRedisCache.php(201): CRedisCache->executeCommand()
+#2 /data/live/framework/caching/CCache.php(104): CRedisCache->getValue()
+#3 /data/live/framework/web/CUrlManager.php(219): CCache->get()
+#4 /data/live/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#5 /data/live/framework/base/CModule.php(394): CUrlManager->init()
+#6 /data/live/framework/base/CApplication.php(531): CModule->getComponent()
+#7 /data/live/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#8 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /data/live/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2023/05/02 13:15:31 [error] [exception.CException] CException: Failed to connect to redis: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /data/live/framework/caching/CRedisCache.php:100
+Stack trace:
+#0 /data/live/framework/caching/CRedisCache.php(126): CRedisCache->connect()
+#1 /data/live/framework/caching/CRedisCache.php(201): CRedisCache->executeCommand()
+#2 /data/live/framework/caching/CCache.php(104): CRedisCache->getValue()
+#3 /data/live/framework/web/CUrlManager.php(219): CCache->get()
+#4 /data/live/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#5 /data/live/framework/base/CModule.php(394): CUrlManager->init()
+#6 /data/live/framework/base/CApplication.php(531): CModule->getComponent()
+#7 /data/live/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#8 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /data/live/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2023/05/02 13:16:29 [error] [exception.CException] CException: Failed to connect to redis: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /data/live/framework/caching/CRedisCache.php:100
+Stack trace:
+#0 /data/live/framework/caching/CRedisCache.php(126): CRedisCache->connect()
+#1 /data/live/framework/caching/CRedisCache.php(201): CRedisCache->executeCommand()
+#2 /data/live/framework/caching/CCache.php(104): CRedisCache->getValue()
+#3 /data/live/framework/web/CUrlManager.php(219): CCache->get()
+#4 /data/live/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#5 /data/live/framework/base/CModule.php(394): CUrlManager->init()
+#6 /data/live/framework/base/CApplication.php(531): CModule->getComponent()
+#7 /data/live/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#8 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /data/live/index.php(19): CApplication->run()
+#10 {main}
+REQUEST_URI=/
+---
+2023/05/03 07:09:59 [error] [exception.MongoDB\Driver\Exception\ConnectionTimeoutException] MongoDB\Driver\Exception\ConnectionTimeoutException: No suitable servers found (`serverSelectionTryOnce` set): [connection refused calling hello on '172.18.0.3:27017'] in /data/live/vendor/mongodb/mongodb/src/functions.php:520
+Stack trace:
+#0 /data/live/vendor/mongodb/mongodb/src/functions.php(520): MongoDB\Driver\Manager->selectServer()
+#1 /data/live/vendor/mongodb/mongodb/src/Collection.php(948): MongoDB\select_server()
+#2 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(396): MongoDB\Collection->listIndexes()
+#3 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(98): EMongoDocument->init()
+#4 /data/live/protected/controllers/AuthorController.php(9): EMongoDocument->__construct()
+#5 /data/live/framework/web/actions/CInlineAction.php(49): Authorcontroller->actionCreate()
+#6 /data/live/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /data/live/framework/web/CController.php(286): CController->runAction()
+#8 /data/live/framework/web/CController.php(265): CController->runActionWithFilters()
+#9 /data/live/framework/web/CWebApplication.php(282): CController->run()
+#10 /data/live/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /data/live/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/author/create
+HTTP_REFERER=http://localhost/
+---
+2023/05/03 07:10:04 [error] [exception.MongoDB\Driver\Exception\ConnectionTimeoutException] MongoDB\Driver\Exception\ConnectionTimeoutException: No suitable servers found (`serverSelectionTryOnce` set): [connection refused calling hello on '172.18.0.3:27017'] in /data/live/vendor/mongodb/mongodb/src/functions.php:520
+Stack trace:
+#0 /data/live/vendor/mongodb/mongodb/src/functions.php(520): MongoDB\Driver\Manager->selectServer()
+#1 /data/live/vendor/mongodb/mongodb/src/Collection.php(948): MongoDB\select_server()
+#2 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(396): MongoDB\Collection->listIndexes()
+#3 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(98): EMongoDocument->init()
+#4 /data/live/protected/controllers/UsersController.php(77): EMongoDocument->__construct()
+#5 /data/live/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#6 /data/live/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /data/live/framework/web/CController.php(286): CController->runAction()
+#8 /data/live/framework/web/CController.php(265): CController->runActionWithFilters()
+#9 /data/live/framework/web/CWebApplication.php(282): CController->run()
+#10 /data/live/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /data/live/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/users/index
+HTTP_REFERER=http://localhost/
+---
+2023/05/03 07:30:43 [error] [exception.MongoDB\Driver\Exception\ConnectionTimeoutException] MongoDB\Driver\Exception\ConnectionTimeoutException: No suitable servers found (`serverSelectionTryOnce` set): [connection refused calling hello on '172.18.0.3:27017'] in /data/live/vendor/mongodb/mongodb/src/functions.php:520
+Stack trace:
+#0 /data/live/vendor/mongodb/mongodb/src/functions.php(520): MongoDB\Driver\Manager->selectServer()
+#1 /data/live/vendor/mongodb/mongodb/src/Collection.php(948): MongoDB\select_server()
+#2 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(396): MongoDB\Collection->listIndexes()
+#3 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(98): EMongoDocument->init()
+#4 /data/live/protected/controllers/UsersController.php(77): EMongoDocument->__construct()
+#5 /data/live/framework/web/actions/CInlineAction.php(49): UsersController->actionIndex()
+#6 /data/live/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /data/live/framework/web/CController.php(286): CController->runAction()
+#8 /data/live/framework/web/CController.php(265): CController->runActionWithFilters()
+#9 /data/live/framework/web/CWebApplication.php(282): CController->run()
+#10 /data/live/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /data/live/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/users/index
+HTTP_REFERER=http://demo.darwinboxlocal.com/index.php/site/login
+---
+2023/05/03 07:30:54 [error] [exception.MongoDB\Driver\Exception\ConnectionTimeoutException] MongoDB\Driver\Exception\ConnectionTimeoutException: No suitable servers found (`serverSelectionTryOnce` set): [connection refused calling hello on '172.18.0.3:27017'] in /data/live/vendor/mongodb/mongodb/src/functions.php:520
+Stack trace:
+#0 /data/live/vendor/mongodb/mongodb/src/functions.php(520): MongoDB\Driver\Manager->selectServer()
+#1 /data/live/vendor/mongodb/mongodb/src/Collection.php(948): MongoDB\select_server()
+#2 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(396): MongoDB\Collection->listIndexes()
+#3 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(98): EMongoDocument->init()
+#4 /data/live/protected/controllers/AuthorController.php(9): EMongoDocument->__construct()
+#5 /data/live/framework/web/actions/CInlineAction.php(49): Authorcontroller->actionCreate()
+#6 /data/live/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /data/live/framework/web/CController.php(286): CController->runAction()
+#8 /data/live/framework/web/CController.php(265): CController->runActionWithFilters()
+#9 /data/live/framework/web/CWebApplication.php(282): CController->run()
+#10 /data/live/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /data/live/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/author/create
+HTTP_REFERER=http://demo.darwinboxlocal.com/index.php/site/login
+---
+2023/05/03 07:30:58 [error] [exception.MongoDB\Driver\Exception\ConnectionTimeoutException] MongoDB\Driver\Exception\ConnectionTimeoutException: No suitable servers found (`serverSelectionTryOnce` set): [connection refused calling hello on '172.18.0.3:27017'] in /data/live/vendor/mongodb/mongodb/src/functions.php:520
+Stack trace:
+#0 /data/live/vendor/mongodb/mongodb/src/functions.php(520): MongoDB\Driver\Manager->selectServer()
+#1 /data/live/vendor/mongodb/mongodb/src/Collection.php(948): MongoDB\select_server()
+#2 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(396): MongoDB\Collection->listIndexes()
+#3 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(98): EMongoDocument->init()
+#4 /data/live/protected/controllers/AuthorController.php(9): EMongoDocument->__construct()
+#5 /data/live/framework/web/actions/CInlineAction.php(49): Authorcontroller->actionCreate()
+#6 /data/live/framework/web/CController.php(308): CInlineAction->runWithParams()
+#7 /data/live/framework/web/CController.php(286): CController->runAction()
+#8 /data/live/framework/web/CController.php(265): CController->runActionWithFilters()
+#9 /data/live/framework/web/CWebApplication.php(282): CController->run()
+#10 /data/live/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#12 /data/live/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/index.php/author/create
+HTTP_REFERER=http://demo.darwinboxlocal.com/index.php/site/login
+---
+2023/05/03 11:58:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.html". in /data/live/framework/web/CController.php:486
+Stack trace:
+#0 /data/live/framework/web/CController.php(270): CController->missingAction()
+#1 /data/live/framework/web/CWebApplication.php(282): CController->run()
+#2 /data/live/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#3 /data/live/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /data/live/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/index.html
+HTTP_REFERER=http://demo.darwinboxlocal.com/index.php/site/index
+---
+
+
+2023/05/21 10:47:38 [info] [system] identity:login
+in /data/live/protected/models/LoginForm.php (53)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 10:49:28 [info] [system] {"username":"sandyblaze911@gmail.com","password":"sandyblaze","errorCode":100,"errorMessage":""}
+in /data/live/protected/models/LoginForm.php (54)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 11:03:27 [info] [system] {"username":"sandyblaze911@gmail.com","password":"sandyblaze","errorCode":100,"errorMessage":""}
+in /data/live/protected/models/LoginForm.php (54)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 11:04:49 [info] [system] {"username":"sandyblaze911@gmail.com","password":"sandyblaze","errorCode":100,"errorMessage":""}
+in /data/live/protected/models/LoginForm.php (54)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 11:05:23 [info] [system] {"username":"sandyblaze911@gmail.com","password":"sandyblaze","errorCode":100,"errorMessage":""}
+in /data/live/protected/models/LoginForm.php (54)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 11:09:01 [info] [system] {"username":"sandyblaze911@gmail.com","password":"sandyblaze","errorCode":100,"errorMessage":""}
+in /data/live/protected/models/LoginForm.php (54)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 11:09:09 [info] [system] {"username":"sandyblaze911@gmail.com","password":"sandyblaze","errorCode":100,"errorMessage":""}
+in /data/live/protected/models/LoginForm.php (54)
+in /data/live/protected/controllers/HomeController.php (50)
+in /data/live/index.php (22)
+2023/05/21 11:43:39 [info] [system] demo info
+in /data/live/protected/controllers/SiteController.php (72)
+in /data/live/index.php (22)
+2023/05/21 11:43:39 [error] [system] demo error
+in /data/live/protected/controllers/SiteController.php (73)
+in /data/live/index.php (22)
+2023/05/21 11:43:39 [warning] [system] demo warning
+in /data/live/protected/controllers/SiteController.php (74)
+in /data/live/index.php (22)
+2023/05/22 07:05:02 [error] [php] include(SESHelper.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/commands/SandyCommand.php(9): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 07:48:02 [error] [php] include(Mails.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/components/helpers/SESHelper.php(55): autoload()
+#2 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 07:50:17 [error] [exception.Error] Error: Class "Aws\Sdk" not found in /data/live/protected/components/helpers/SESHelper.php:11
+Stack trace:
+#0 /data/live/protected/commands/SandyCommand.php(11): SESHelper->__construct()
+#1 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#2 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /data/live/framework/yiic.php(33): CApplication->run()
+#5 /data/live/protected/yiic.php(7): require_once('...')
+#6 {main}
+---
+2023/05/22 07:52:57 [error] [php] include(Mails.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/components/helpers/SESHelper.php(55): autoload()
+#2 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 07:55:59 [error] [php] include(/data/live/protected/components/models/Mails.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:435)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(435): include()
+#1 /data/live/protected/components/helpers/SESHelper.php(57): autoload()
+#2 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 07:57:21 [error] [php] include(/data/live/protected/components/models/Mails.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:435)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(435): include()
+#1 /data/live/protected/components/helpers/SESHelper.php(57): autoload()
+#2 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 08:06:51 [error] [php] include(EMongoDocument.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/models/Mails.php(3): autoload()
+#2 /data/live/framework/YiiBase.php(435): include()
+#3 /data/live/protected/components/helpers/SESHelper.php(57): autoload()
+#4 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#5 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#6 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 09:59:52 [error] [php] include(EMongoDocument.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/models/Mails.php(3): autoload()
+#2 /data/live/framework/YiiBase.php(435): include()
+#3 /data/live/protected/components/helpers/SESHelper.php(57): autoload()
+#4 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#5 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#6 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 11:40:41 [error] [php] include(DBDocumentPHP7.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(24): autoload()
+#2 /data/live/framework/YiiBase.php(463): include()
+#3 /data/live/protected/models/Mails.php(3): autoload()
+#4 /data/live/framework/YiiBase.php(435): include()
+#5 /data/live/protected/components/helpers/SESHelper.php(57): autoload()
+#6 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#7 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#8 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 11:41:49 [error] [php] include(DBDocumentPHP7.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(24): autoload()
+#2 /data/live/framework/YiiBase.php(463): include()
+#3 /data/live/protected/models/Mails.php(3): autoload()
+#4 /data/live/framework/YiiBase.php(435): include()
+#5 /data/live/protected/components/helpers/SESHelper.php(57): autoload()
+#6 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#7 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#8 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 11:50:20 [error] [php] include(SESHelper.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/commands/SandyCommand.php(11): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 15:29:25 [error] [php] include(SESHelper.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/commands/SandyCommand.php(11): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 15:32:31 [error] [php] include(DBDocumentPHP7.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(24): autoload()
+#2 /data/live/framework/YiiBase.php(463): include()
+#3 /data/live/protected/models/Mails.php(3): autoload()
+#4 /data/live/framework/YiiBase.php(435): include()
+#5 /data/live/protected/components/helpers/SESHelper.php(53): autoload()
+#6 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#7 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#8 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#9 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#10 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()
+
+2023/05/22 15:36:24 [error] [exception.Error] Error: Call to a member function getDbInstance() on null in /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php:167
+Stack trace:
+#0 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(192): EMongoDocument->getDb()
+#1 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(396): EMongoDocument->getCollection()
+#2 /data/live/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(98): EMongoDocument->init()
+#3 /data/live/protected/components/helpers/SESHelper.php(53): EMongoDocument->__construct()
+#4 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#5 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#6 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /data/live/protected/utils/job_entry.php(16): CApplication->run()
+#9 {main}
+---
+2023/05/22 17:00:50 [error] [php] include(TestCommand.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/framework/console/CConsoleCommandRunner.php(170): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(17): CConsoleApplication->run()
+
+2023/05/22 17:01:00 [error] [php] include(TestCommand.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/framework/console/CConsoleCommandRunner.php(170): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(17): CConsoleApplication->run()
+
+2023/05/22 17:01:45 [error] [php] include(TestCommand.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/framework/console/CConsoleCommandRunner.php(170): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(17): CConsoleApplication->run()
+
+2023/05/22 17:01:56 [error] [php] include(TestCommand.php): Failed to open stream: No such file or directory (/data/live/framework/YiiBase.php:463)
+Stack trace:
+#0 /data/live/framework/YiiBase.php(463): include()
+#1 /data/live/framework/console/CConsoleCommandRunner.php(170): autoload()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(67): CConsoleCommandRunner->createCommand()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(17): CConsoleApplication->run()
+
+
+2023/06/03 17:54:21 [error] [system] sandy-blaze
+count: 500000000500000000, time: 8.2884640693665
+
+2023/06/14 15:33:59 [error] [exception.CException] CException: Property "GoogleTokens.tokens" is not defined. in /data/live/framework/base/CComponent.php:130
+Stack trace:
+#0 /data/live/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(186): CComponent->__get()
+#1 /data/live/framework/base/CModel.php(596): EMongoEmbeddedDocument->__get()
+#2 /data/live/protected/commands/ReloginCommand.php(16): CModel->offsetGet()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): ReloginCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(17): CApplication->run()
+#7 {main}
+---
+2023/06/15 08:39:24 [error] [exception.CException] CException: Property "GoogleTokens.tokens" is not defined. in /data/live/framework/base/CComponent.php:130
+Stack trace:
+#0 /data/live/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(186): CComponent->__get()
+#1 /data/live/framework/base/CModel.php(596): EMongoEmbeddedDocument->__get()
+#2 /data/live/protected/commands/ReloginCommand.php(16): CModel->offsetGet()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): ReloginCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(17): CApplication->run()
+#7 {main}
+---
+2023/06/15 08:52:16 [error] [exception.CException] CException: Property "GoogleTokens.tokens" is not defined. in /data/live/framework/base/CComponent.php:130
+Stack trace:
+#0 /data/live/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(186): CComponent->__get()
+#1 /data/live/framework/base/CModel.php(596): EMongoEmbeddedDocument->__get()
+#2 /data/live/protected/commands/ReloginCommand.php(16): CModel->offsetGet()
+#3 /data/live/framework/console/CConsoleCommandRunner.php(71): ReloginCommand->run()
+#4 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#5 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#6 /data/live/protected/utils/job_entry.php(17): CApplication->run()
+#7 {main}
+---
+2023/06/15 09:01:10 [error] [exception.CException] CException: Property "GoogleTokens.tokens" is not defined. in /data/live/framework/base/CComponent.php:130
+Stack trace:
+#0 /data/live/protected/extensions/YiiMongoDbSuite/EMongoEmbeddedDocument.php(186): CComponent->__get()
+#1 /data/live/protected/commands/ReloginCommand.php(16): EMongoEmbeddedDocument->__get()
+#2 /data/live/framework/console/CConsoleCommandRunner.php(71): ReloginCommand->run()
+#3 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /data/live/protected/utils/job_entry.php(17): CApplication->run()
+#6 {main}
+---
+2023/06/17 10:19:42 [error] [system] yes delete
+in /data/live/protected/controllers/ClassworkController.php (257)
+in /data/live/index.php (22)
+2023/06/17 10:19:46 [error] [php] Attempt to read property "startdate" on null (/data/live/protected/commands/CalendarNotifyCommand.php:17)
+Stack trace:
+#0 /data/live/framework/console/CConsoleCommandRunner.php(71): CalendarNotifyCommand->run()
+#1 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#2 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#3 /data/live/protected/utils/job_entry.php(17): CConsoleApplication->run()
+
+2023/06/17 10:20:47 [error] [system] no delete
+in /data/live/protected/controllers/ClassworkController.php (261)
+in /data/live/index.php (22)
+2023/06/17 10:22:40 [error] [system] no delete
+in /data/live/protected/controllers/ClassworkController.php (261)
+in /data/live/index.php (22)
+2023/06/17 10:28:49 [error] [system] 20jayanth02@gmail.com 010f0188c8e67f7a-dbe86413-2475-4311-a4b6-15f1d23b897a-000000
+2023/06/17 10:28:49 [error] [system] sandyblaze954@gmail.com 010f0188c8e6811b-6afe8778-ab48-4a18-a0f6-c011aebe52ed-000000
+2023/06/17 10:28:50 [error] [system] sandeepkumarbhaviri@gmail.com not sent
+2023/06/20 05:56:05 [error] [system] no delete
+in /data/live/protected/controllers/ClassworkController.php (261)
+in /data/live/index.php (22)
+2023/06/20 05:59:18 [error] [system] no delete
+in /data/live/protected/controllers/ClassworkController.php (261)
+in /data/live/index.php (22)
+2023/06/27 10:03:37 [error] [system] 20jayanth02@gmail.com 010f0188fc4f06ff-534c93a9-774f-4ed2-bfbf-9dd8cba65aa0-000000
+2023/06/27 10:03:38 [error] [system] sandyblaze954@gmail.com 010f0188fc4f08dd-bb569d72-3166-4752-8af4-3df8d37329bb-000000
+2023/06/27 10:03:38 [error] [system] sandeepkumarbhaviri@gmail.com not sent
+2023/07/01 05:08:01 [error] [system] no delete
+in /data/live/protected/controllers/ClassworkController.php (261)
+in /data/live/index.php (22)

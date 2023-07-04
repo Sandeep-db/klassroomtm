@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100%;
+}
+
+#footer {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background-color: #f5f5f5;
+  padding: 20px;
+}

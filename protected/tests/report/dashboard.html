@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /data/live/protected</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=9.2.26" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/data/live/protected</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="components/DBDocumentPHP7.php.html#3">DBDocumentPHP7</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#3">MongoAggregator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Nav.php.html#3">Nav</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/OAuth.php.html#6">OAuth</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#3">Testingcomp</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/UserIdentity.php.html#10">UserIdentity</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoSuiteHelper.php.html#2">MongoSuiteHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SNSHelper.php.html#8">SNSHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#5">SQSHelper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/TestClass.php.html#3">TestClass</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/TestEvent.php.html#2">TestEvent</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/WebTestCase.php.html#14">WebTestCase</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/functional/SiteTest.php.html#3">SiteTest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#3">MongoHelper</a></td><td class="text-right">5%</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#8">S3Helper</a></td><td class="text-right">35%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="components/MongoAggregator.php.html#3">MongoAggregator</a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#3">Testingcomp</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#3">MongoHelper</a></td><td class="text-right">77</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#5">SQSHelper</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="components/OAuth.php.html#6">OAuth</a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#8">S3Helper</a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="components/helpers/MongoSuiteHelper.php.html#2">MongoSuiteHelper</a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="components/UserIdentity.php.html#10">UserIdentity</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="tests/functional/SiteTest.php.html#3">SiteTest</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="components/DBDocumentPHP7.php.html#3">DBDocumentPHP7</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/Nav.php.html#3">Nav</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/helpers/SNSHelper.php.html#8">SNSHelper</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="components/DBDocumentPHP7.php.html#5"><abbr title="DBDocumentPHP7::offsetExists">offsetExists</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#9"><abbr title="MongoAggregator::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#14"><abbr title="MongoAggregator::getInstance">getInstance</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#20"><abbr title="MongoAggregator::getDB">getDB</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#24"><abbr title="MongoAggregator::selectCollection">selectCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#29"><abbr title="MongoAggregator::setCollection">setCollection</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#34"><abbr title="MongoAggregator::find">find</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#38"><abbr title="MongoAggregator::addStage">addStage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#43"><abbr title="MongoAggregator::limit">limit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#48"><abbr title="MongoAggregator::skip">skip</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#53"><abbr title="MongoAggregator::count">count</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#58"><abbr title="MongoAggregator::sort">sort</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#63"><abbr title="MongoAggregator::project">project</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#69"><abbr title="MongoAggregator::group">group</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#74"><abbr title="MongoAggregator::match">match</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#80"><abbr title="MongoAggregator::aggregate">aggregate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#8"><abbr title="MongoHelper::model">model</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#12"><abbr title="MongoHelper::setSecondaryReadPref">setSecondaryReadPref</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#35"><abbr title="MongoHelper::cleanCache">cleanCache</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#40"><abbr title="MongoHelper::getCollectionName">getCollectionName</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#51"><abbr title="MongoHelper::updateDbReadPreference">updateDbReadPreference</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Nav.php.html#6"><abbr title="Nav::init">init</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Nav.php.html#9"><abbr title="Nav::run">run</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/OAuth.php.html#10"><abbr title="OAuth::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/OAuth.php.html#24"><abbr title="OAuth::getAccessTokens">getAccessTokens</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/OAuth.php.html#36"><abbr title="OAuth::processAccessTokens">processAccessTokens</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#5"><abbr title="Testingcomp::add">add</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#10"><abbr title="Testingcomp::divide">divide</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#15"><abbr title="Testingcomp::exceptiontestinghelper">exceptiontestinghelper</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#28"><abbr title="Testingcomp::warning">warning</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#35"><abbr title="Testingcomp::error">error</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#40"><abbr title="Testingcomp::notice">notice</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#47"><abbr title="Testingcomp::sayhello">sayhello</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/UserIdentity.php.html#36"><abbr title="UserIdentity::authenticate">authenticate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/UserIdentity.php.html#60"><abbr title="UserIdentity::getId">getId</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/MongoSuiteHelper.php.html#10"><abbr title="MongoSuiteHelper::addMongoModifiers">addMongoModifiers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#40"><abbr title="S3Helper::deleteFolder">deleteFolder</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#57"><abbr title="S3Helper::getObject">getObject</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#75"><abbr title="S3Helper::getObjectUrl">getObjectUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#80"><abbr title="S3Helper::onTest">onTest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SNSHelper.php.html#11"><abbr title="SNSHelper::sendEmail">sendEmail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#10"><abbr title="SQSHelper::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#24"><abbr title="SQSHelper::sendMessage">sendMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#37"><abbr title="SQSHelper::receiveMessage">receiveMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#66"><abbr title="SQSHelper::deleteMessage">deleteMessage</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/TestClass.php.html#5"><abbr title="TestClass::test">test</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/TestClass.php.html#15"><abbr title="TestClass::onTest">onTest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/TestEvent.php.html#7"><abbr title="TestEvent::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/WebTestCase.php.html#20"><abbr title="WebTestCase::setUp">setUp</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/functional/SiteTest.php.html#5"><abbr title="SiteTest::testIndex">testIndex</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/functional/SiteTest.php.html#11"><abbr title="SiteTest::testContact">testContact</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="tests/functional/SiteTest.php.html#24"><abbr title="SiteTest::testLoginLogout">testLoginLogout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#26"><abbr title="S3Helper::putObject">putObject</abbr></a></td><td class="text-right">75%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="components/helpers/MongoSuiteHelper.php.html#10"><abbr title="MongoSuiteHelper::addMongoModifiers">addMongoModifiers</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="components/DBDocumentPHP7.php.html#5"><abbr title="DBDocumentPHP7::offsetExists">offsetExists</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#51"><abbr title="MongoHelper::updateDbReadPreference">updateDbReadPreference</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/Testingcomp.php.html#15"><abbr title="Testingcomp::exceptiontestinghelper">exceptiontestinghelper</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/UserIdentity.php.html#36"><abbr title="UserIdentity::authenticate">authenticate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#40"><abbr title="S3Helper::deleteFolder">deleteFolder</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#37"><abbr title="SQSHelper::receiveMessage">receiveMessage</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#14"><abbr title="MongoAggregator::getInstance">getInstance</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/MongoAggregator.php.html#80"><abbr title="MongoAggregator::aggregate">aggregate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/helpers/MongoHelper.php.html#12"><abbr title="MongoHelper::setSecondaryReadPref">setSecondaryReadPref</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/Nav.php.html#9"><abbr title="Nav::run">run</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/OAuth.php.html#10"><abbr title="OAuth::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/OAuth.php.html#24"><abbr title="OAuth::getAccessTokens">getAccessTokens</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/OAuth.php.html#36"><abbr title="OAuth::processAccessTokens">processAccessTokens</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#57"><abbr title="S3Helper::getObject">getObject</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/helpers/SNSHelper.php.html#11"><abbr title="SNSHelper::sendEmail">sendEmail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/helpers/SQSHelper.php.html#24"><abbr title="SQSHelper::sendMessage">sendMessage</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="tests/functional/SiteTest.php.html#24"><abbr title="SiteTest::testLoginLogout">testLoginLogout</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="components/helpers/S3Helper.php.html#26"><abbr title="S3Helper::putObject">putObject</abbr></a></td><td class="text-right">2</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 9.2.26</a> using <a href="https://secure.php.net/" target="_top">PHP 8.0.28</a> and <a href="https://phpunit.de/">PHPUnit 9.6.8</a> at Wed Jun 28 10:43:33 UTC 2023.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=9.2.26" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=9.2.26" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=9.2.26" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([13,1,0,0,1,0,0,0,0,0,0,8], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([52,0,0,0,0,0,0,0,1,0,0,17], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,0,"<a href=\"components\/Controller.php.html#6\">Controller<\/a>"],[0,3,"<a href=\"components\/DBDocumentPHP7.php.html#3\">DBDocumentPHP7<\/a>"],[0,17,"<a href=\"components\/MongoAggregator.php.html#3\">MongoAggregator<\/a>"],[5.263157894736842,9,"<a href=\"components\/helpers\/MongoHelper.php.html#3\">MongoHelper<\/a>"],[0,3,"<a href=\"components\/Nav.php.html#3\">Nav<\/a>"],[0,6,"<a href=\"components\/OAuth.php.html#6\">OAuth<\/a>"],[0,9,"<a href=\"components\/Testingcomp.php.html#3\">Testingcomp<\/a>"],[0,4,"<a href=\"components\/UserIdentity.php.html#10\">UserIdentity<\/a>"],[0,5,"<a href=\"components\/helpers\/MongoSuiteHelper.php.html#2\">MongoSuiteHelper<\/a>"],[35,10,"<a href=\"components\/helpers\/S3Helper.php.html#8\">S3Helper<\/a>"],[100,3,"<a href=\"components\/helpers\/SESHelper.php.html#8\">SESHelper<\/a>"],[0,2,"<a href=\"components\/helpers\/SNSHelper.php.html#8\">SNSHelper<\/a>"],[0,7,"<a href=\"components\/helpers\/SQSHelper.php.html#5\">SQSHelper<\/a>"],[0,2,"<a href=\"components\/helpers\/TestClass.php.html#3\">TestClass<\/a>"],[0,1,"<a href=\"components\/helpers\/TestEvent.php.html#2\">TestEvent<\/a>"],[0,1,"<a href=\"tests\/WebTestCase.php.html#14\">WebTestCase<\/a>"],[0,4,"<a href=\"tests\/functional\/SiteTest.php.html#3\">SiteTest<\/a>"],[100,2,"<a href=\"tests\/unit\/ClassControllerTest.php.html#8\">ClassControllerTest<\/a>"],[100,1,"<a href=\"tests\/unit\/CourseFormTest.php.html#7\">CourseFormTest<\/a>"],[100,4,"<a href=\"tests\/unit\/HomeControllerTest.php.html#6\">HomeControllerTest<\/a>"],[100,3,"<a href=\"tests\/unit\/LoginFormTest.php.html#7\">LoginFormTest<\/a>"],[100,1,"<a href=\"tests\/unit\/S3HelperTest.php.html#5\">S3HelperTest<\/a>"],[100,1,"<a href=\"tests\/unit\/SESHelperTest.php.html#5\">SESHelperTest<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,3,"<a href=\"components\/DBDocumentPHP7.php.html#5\">DBDocumentPHP7::offsetExists<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#9\">MongoAggregator::__construct<\/a>"],[0,2,"<a href=\"components\/MongoAggregator.php.html#14\">MongoAggregator::getInstance<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#20\">MongoAggregator::getDB<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#24\">MongoAggregator::selectCollection<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#29\">MongoAggregator::setCollection<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#34\">MongoAggregator::find<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#38\">MongoAggregator::addStage<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#43\">MongoAggregator::limit<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#48\">MongoAggregator::skip<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#53\">MongoAggregator::count<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#58\">MongoAggregator::sort<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#63\">MongoAggregator::project<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#69\">MongoAggregator::group<\/a>"],[0,1,"<a href=\"components\/MongoAggregator.php.html#74\">MongoAggregator::match<\/a>"],[0,2,"<a href=\"components\/MongoAggregator.php.html#80\">MongoAggregator::aggregate<\/a>"],[0,1,"<a href=\"components\/helpers\/MongoHelper.php.html#8\">MongoHelper::model<\/a>"],[0,2,"<a href=\"components\/helpers\/MongoHelper.php.html#12\">MongoHelper::setSecondaryReadPref<\/a>"],[100,1,"<a href=\"components\/helpers\/MongoHelper.php.html#31\">MongoHelper::readPrefSecondary<\/a>"],[0,1,"<a href=\"components\/helpers\/MongoHelper.php.html#35\">MongoHelper::cleanCache<\/a>"],[0,1,"<a href=\"components\/helpers\/MongoHelper.php.html#40\">MongoHelper::getCollectionName<\/a>"],[0,3,"<a href=\"components\/helpers\/MongoHelper.php.html#51\">MongoHelper::updateDbReadPreference<\/a>"],[0,1,"<a href=\"components\/Nav.php.html#6\">Nav::init<\/a>"],[0,2,"<a href=\"components\/Nav.php.html#9\">Nav::run<\/a>"],[0,2,"<a href=\"components\/OAuth.php.html#10\">OAuth::__construct<\/a>"],[0,2,"<a href=\"components\/OAuth.php.html#24\">OAuth::getAccessTokens<\/a>"],[0,2,"<a href=\"components\/OAuth.php.html#36\">OAuth::processAccessTokens<\/a>"],[0,1,"<a href=\"components\/Testingcomp.php.html#5\">Testingcomp::add<\/a>"],[0,1,"<a href=\"components\/Testingcomp.php.html#10\">Testingcomp::divide<\/a>"],[0,3,"<a href=\"components\/Testingcomp.php.html#15\">Testingcomp::exceptiontestinghelper<\/a>"],[0,1,"<a href=\"components\/Testingcomp.php.html#28\">Testingcomp::warning<\/a>"],[0,1,"<a href=\"components\/Testingcomp.php.html#35\">Testingcomp::error<\/a>"],[0,1,"<a href=\"components\/Testingcomp.php.html#40\">Testingcomp::notice<\/a>"],[0,1,"<a href=\"components\/Testingcomp.php.html#47\">Testingcomp::sayhello<\/a>"],[0,3,"<a href=\"components\/UserIdentity.php.html#36\">UserIdentity::authenticate<\/a>"],[0,1,"<a href=\"components\/UserIdentity.php.html#60\">UserIdentity::getId<\/a>"],[0,5,"<a href=\"components\/helpers\/MongoSuiteHelper.php.html#10\">MongoSuiteHelper::addMongoModifiers<\/a>"],[100,1,"<a href=\"components\/helpers\/S3Helper.php.html#12\">S3Helper::__construct<\/a>"],[75,2,"<a href=\"components\/helpers\/S3Helper.php.html#26\">S3Helper::putObject<\/a>"],[0,3,"<a href=\"components\/helpers\/S3Helper.php.html#40\">S3Helper::deleteFolder<\/a>"],[0,2,"<a href=\"components\/helpers\/S3Helper.php.html#57\">S3Helper::getObject<\/a>"],[0,1,"<a href=\"components\/helpers\/S3Helper.php.html#75\">S3Helper::getObjectUrl<\/a>"],[0,1,"<a href=\"components\/helpers\/S3Helper.php.html#80\">S3Helper::onTest<\/a>"],[100,1,"<a href=\"components\/helpers\/SESHelper.php.html#11\">SESHelper::__construct<\/a>"],[100,1,"<a href=\"components\/helpers\/SESHelper.php.html#24\">SESHelper::getParams<\/a>"],[100,1,"<a href=\"components\/helpers\/SESHelper.php.html#51\">SESHelper::sendMails<\/a>"],[0,2,"<a href=\"components\/helpers\/SNSHelper.php.html#11\">SNSHelper::sendEmail<\/a>"],[0,1,"<a href=\"components\/helpers\/SQSHelper.php.html#10\">SQSHelper::__construct<\/a>"],[0,2,"<a href=\"components\/helpers\/SQSHelper.php.html#24\">SQSHelper::sendMessage<\/a>"],[0,3,"<a href=\"components\/helpers\/SQSHelper.php.html#37\">SQSHelper::receiveMessage<\/a>"],[0,1,"<a href=\"components\/helpers\/SQSHelper.php.html#66\">SQSHelper::deleteMessage<\/a>"],[0,1,"<a href=\"components\/helpers\/TestClass.php.html#5\">TestClass::test<\/a>"],[0,1,"<a href=\"components\/helpers\/TestClass.php.html#15\">TestClass::onTest<\/a>"],[0,1,"<a href=\"components\/helpers\/TestEvent.php.html#7\">TestEvent::__construct<\/a>"],[0,1,"<a href=\"tests\/WebTestCase.php.html#20\">WebTestCase::setUp<\/a>"],[0,1,"<a href=\"tests\/functional\/SiteTest.php.html#5\">SiteTest::testIndex<\/a>"],[0,1,"<a href=\"tests\/functional\/SiteTest.php.html#11\">SiteTest::testContact<\/a>"],[0,2,"<a href=\"tests\/functional\/SiteTest.php.html#24\">SiteTest::testLoginLogout<\/a>"],[100,1,"<a href=\"tests\/unit\/ClassControllerTest.php.html#11\">ClassControllerTest::testEmpty<\/a>"],[100,1,"<a href=\"tests\/unit\/ClassControllerTest.php.html#22\">ClassControllerTest::testPush<\/a>"],[100,1,"<a href=\"tests\/unit\/CourseFormTest.php.html#9\">CourseFormTest::testValidation<\/a>"],[100,1,"<a href=\"tests\/unit\/HomeControllerTest.php.html#9\">HomeControllerTest::testStream<\/a>"],[100,1,"<a href=\"tests\/unit\/HomeControllerTest.php.html#16\">HomeControllerTest::testClasswork<\/a>"],[100,1,"<a href=\"tests\/unit\/HomeControllerTest.php.html#25\">HomeControllerTest::testPeople<\/a>"],[100,1,"<a href=\"tests\/unit\/HomeControllerTest.php.html#31\">HomeControllerTest::testSchedule<\/a>"],[100,1,"<a href=\"tests\/unit\/LoginFormTest.php.html#13\">LoginFormTest::testValidateUser<\/a>"],[100,1,"<a href=\"tests\/unit\/LoginFormTest.php.html#23\">LoginFormTest::testInvalidEmail<\/a>"],[100,1,"<a href=\"tests\/unit\/LoginFormTest.php.html#33\">LoginFormTest::testInvalidLogin<\/a>"],[100,1,"<a href=\"tests\/unit\/S3HelperTest.php.html#7\">S3HelperTest::testPutObject<\/a>"],[100,1,"<a href=\"tests\/unit\/SESHelperTest.php.html#7\">SESHelperTest::testSendMails<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

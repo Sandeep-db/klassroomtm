@@ -1,0 +1,67 @@
+Sure, here is a code for segmentation trees in Python:
+
+```python
+class SegmentTree(object):
+
+    def __init__(self, array):
+        """
+        Initialize a segment tree.
+
+        Args:
+            array: The array to build the segment tree on.
+        """
+        self.array = array
+        self.n = len(array)
+        self.tree = [0] * (2 * self.n)
+
+        for i in range(self.n):
+            self.tree[i + self.n] = array[i]
+
+        for i in range(self.n - 1, 0, -1):
+            self.tree[i] = self.tree[i << 1] + self.tree[i << 1 | 1]
+
+    def query(self, l, r):
+        """
+        Query the segment tree for the sum of the elements in the range [l, r).
+
+        Args:
+            l: The left index of the range.
+            r: The right index of the range.
+
+        Returns:
+            The sum of the elements in the range [l, r).
+        """
+        l += self.n
+        r += self.n
+        res = 0
+
+        while l <= r:
+            if l & 1:
+                res += self.tree[l]
+                l += 1
+            if r & 1:
+                r -= 1
+                res += self.tree[r]
+            l >>= 1
+            r >>= 1
+
+        return res
+
+    def update(self, i, value):
+        """
+        Update the element at index i in the segment tree.
+
+        Args:
+            i: The index of the element to update.
+            value: The new value of the element.
+        """
+        i += self.n
+        self.tree[i] = value
+
+        while i > 1:
+            i >>= 1
+            self.tree[i] = self.tree[i << 1] + self.tree[i << 1 | 1]
+
+```
+
+This is a simple implementation of a segment tree. It can be used to perform range queries and updates on a given array. The time complexity of both operations is O(log n), where n is the size of the array.

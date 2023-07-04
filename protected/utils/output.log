@@ -1,0 +1,17 @@
+Array
+(
+    [0] => 1
+    [1] => string
+    [2] => 3.14
+)
+PHP Error[2]: include(Mails.php): Failed to open stream: No such file or directory
+    in file /data/live/framework/YiiBase.php at line 463
+#0 /data/live/framework/base/CApplication.php(832): CErrorHandler->handle()
+#1 /data/live/framework/YiiBase.php(463): CConsoleApplication->handleError()
+#2 /data/live/framework/YiiBase.php(463): include()
+#3 /data/live/protected/components/helpers/SESHelper.php(55): autoload()
+#4 /data/live/protected/commands/SandyCommand.php(12): SESHelper->sendTestMails()
+#5 /data/live/framework/console/CConsoleCommandRunner.php(71): SandyCommand->run()
+#6 /data/live/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#7 /data/live/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#8 /data/live/protected/utils/job_entry.php(16): CConsoleApplication->run()

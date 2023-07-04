@@ -1,0 +1,3 @@
+
+0 0 * * *  /usr/bin/php /data/live/protected/utils/job_entry.php dailynotify
+
